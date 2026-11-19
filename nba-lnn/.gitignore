@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+# gerados pelo pipeline
+data/processed/
+artifacts/*.pt
+# data/raw/ e artifacts/ (tabelas e figuras) SÃO versionados: assim o projeto
+# é reproduzível sem acessar o stats.nba.com
+
+# instalador local, não faz parte do projeto
+*.deb
